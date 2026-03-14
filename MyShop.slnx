@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MyShop.API/MyShop.API.csproj" />
+  <Project Path="MyShop.Application/MyShop.Application.csproj" />
+  <Project Path="MyShop.Domain/MyShop.Domain.csproj" />
+  <Project Path="MyShop.Infrastructure/MyShop.Infrastructure.csproj" />
+</Solution>

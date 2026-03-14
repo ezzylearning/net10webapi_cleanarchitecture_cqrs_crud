@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="LiteBus" Version="4.3.0" />
+	  <PackageReference Include="LiteBus.Commands.Extensions.Microsoft.DependencyInjection" Version="4.3.0" />
+	  <PackageReference Include="LiteBus.Queries.Extensions.Microsoft.DependencyInjection" Version="4.3.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyShop.Domain\MyShop.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
